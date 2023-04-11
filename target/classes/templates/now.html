@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>현재 시간 출력</title>
+</head>
+<body>
+
+	<p th:text="${time}">시간이 출력됩니다다다당</p>
+	<p th:text="${msg}">시간이 출력됩니다다다당</p>
+
+	<p>현지 시간은 다음과 같습니다.</p>
+	<ul>
+		<li th:text=${time}>2000-01-01</li>
+	</ul>
+	
+</body>
+</html>
